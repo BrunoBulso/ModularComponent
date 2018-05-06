@@ -1,0 +1,9 @@
+use_frameworks!
+
+target 'ModularComponent_Example' do
+  pod 'ModularComponent', :path => '../'
+
+  target 'ModularComponent_Tests' do
+    inherit! :search_paths
+  end
+end

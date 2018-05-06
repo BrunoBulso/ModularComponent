@@ -1,0 +1,16 @@
+PODS:
+  - ModularComponent (0.1.0)
+
+DEPENDENCIES:
+  - ModularComponent (from `../`)
+
+EXTERNAL SOURCES:
+  ModularComponent:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ModularComponent: 8b015184b012f9623fc3c910384442215b26bbf9
+
+PODFILE CHECKSUM: b54eed14f52cfd68af637e2f9f619b9ff4031a65
+
+COCOAPODS: 1.5.0

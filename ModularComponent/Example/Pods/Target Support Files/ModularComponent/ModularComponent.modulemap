@@ -1,0 +1,6 @@
+framework module ModularComponent {
+  umbrella header "ModularComponent-umbrella.h"
+
+  export *
+  module * { export * }
+}

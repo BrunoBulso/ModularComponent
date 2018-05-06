@@ -1,0 +1,13 @@
+/* 
+  Localizable.strings
+  Pods
+
+  Created by Bruno Bulso on 06/05/2018.
+  
+*/
+
+// Mark - Login
+"emailPlaceholder" = "Email placeholder";
+"passwordPlaceholder" = "Password placeholder";
+"loginButtonTitle" = "loginButtonTitle";
+"fieldsError" = "You should fill your email and password!"

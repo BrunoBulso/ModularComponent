@@ -1,0 +1,27 @@
+{
+  "name": "ModularComponent",
+  "version": "0.1.0",
+  "summary": "A short description of ModularComponent.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/brunobulso/ModularComponent",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "brunobulso": "bruno.bulso@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/brunobulso/ModularComponent.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "Pod/Classes/**/*.{swift}",
+  "resource_bundles": {
+    "ModularComponent": [
+      "Pod/Classes/**/*.{storyboard,xib,png,jpg,strings}"
+    ]
+  }
+}
