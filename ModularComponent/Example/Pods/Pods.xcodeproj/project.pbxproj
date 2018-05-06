@@ -10,12 +10,12 @@
 		1238387A69F026523B289A1902705DE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		4C8F35688B89C376E0D2B83DA3E67EC3 /* Pods-ModularComponent_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 08733FB74A47B53DAEEF632D1FD76517 /* Pods-ModularComponent_Tests-dummy.m */; };
 		6F881EC51C88986A0CD7F9DBC44A707E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		991CACBD209ECD19009283E0 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 991CACB4209ECD18009283E0 /* Storyboard.storyboard */; };
-		991CACBE209ECD19009283E0 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991CACB5209ECD18009283E0 /* StringExtension.swift */; };
-		991CACBF209ECD19009283E0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 991CACB7209ECD18009283E0 /* Localizable.strings */; };
-		991CACC0209ECD19009283E0 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991CACBA209ECD19009283E0 /* UIViewExtension.swift */; };
-		991CACC1209ECD19009283E0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991CACBB209ECD19009283E0 /* Constants.swift */; };
-		991CACC2209ECD19009283E0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991CACBC209ECD19009283E0 /* LoginViewController.swift */; };
+		9935E582209ED53E00967F20 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9935E57A209ED53E00967F20 /* Constants.swift */; };
+		9935E583209ED53E00967F20 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9935E57C209ED53E00967F20 /* Localizable.strings */; };
+		9935E584209ED53E00967F20 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9935E57E209ED53E00967F20 /* UIViewExtension.swift */; };
+		9935E585209ED53E00967F20 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9935E57F209ED53E00967F20 /* LoginViewController.swift */; };
+		9935E586209ED53E00967F20 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9935E580209ED53E00967F20 /* StringExtension.swift */; };
+		9935E587209ED53E00967F20 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9935E581209ED53E00967F20 /* Storyboard.storyboard */; };
 		A368C0D37B722FDC6AB3890329CBBC07 /* Pods-ModularComponent_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2EEF86D753F77F5815FC434D922CC69 /* Pods-ModularComponent_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D797939DE187DA2E4CF76512F3D4C2AC /* Pods-ModularComponent_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 506805BA73CD2ED7AB00D9EA51D8381C /* Pods-ModularComponent_Example-dummy.m */; };
 		E6996C3E2B990696E122DDCDBBF0306E /* Pods-ModularComponent_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9508C751BD4B09BD598E05482E1FDB7E /* Pods-ModularComponent_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -56,13 +56,13 @@
 		83F9B0A8761347A7AD0E0F693E5E2944 /* ModularComponent.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModularComponent.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9508C751BD4B09BD598E05482E1FDB7E /* Pods-ModularComponent_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ModularComponent_Tests-umbrella.h"; sourceTree = "<group>"; };
-		991CACB4209ECD18009283E0 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
-		991CACB5209ECD18009283E0 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
-		991CACB8209ECD18009283E0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
-		991CACB9209ECD18009283E0 /* ModularComponent-ModularComponent-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ModularComponent-ModularComponent-Bridging-Header.h"; sourceTree = "<group>"; };
-		991CACBA209ECD19009283E0 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
-		991CACBB209ECD19009283E0 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
-		991CACBC209ECD19009283E0 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9935E57A209ED53E00967F20 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		9935E57B209ED53E00967F20 /* ModularComponent-ModularComponent-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ModularComponent-ModularComponent-Bridging-Header.h"; sourceTree = "<group>"; };
+		9935E57D209ED53E00967F20 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		9935E57E209ED53E00967F20 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		9935E57F209ED53E00967F20 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9935E580209ED53E00967F20 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		9935E581209ED53E00967F20 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 		9D62772202942D6BFDD8632938F4D948 /* Pods-ModularComponent_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ModularComponent_Tests-resources.sh"; sourceTree = "<group>"; };
 		A3F3BEE24DEFB42D8026683FA5AEE580 /* ResourceBundle-ModularComponent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ModularComponent-Info.plist"; sourceTree = "<group>"; };
 		A47FC1E909EFFBDDCE0757BF3A131563 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -187,24 +187,16 @@
 			path = "Target Support Files/Pods-ModularComponent_Example";
 			sourceTree = "<group>";
 		};
-		991CACB6209ECD18009283E0 /* en.lproj */ = {
+		9935E579209ED53E00967F20 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				991CACB7209ECD18009283E0 /* Localizable.strings */,
-			);
-			path = en.lproj;
-			sourceTree = "<group>";
-		};
-		991CACC4209ED0AD009283E0 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				991CACBB209ECD19009283E0 /* Constants.swift */,
-				991CACB6209ECD18009283E0 /* en.lproj */,
-				991CACBC209ECD19009283E0 /* LoginViewController.swift */,
-				991CACB9209ECD18009283E0 /* ModularComponent-ModularComponent-Bridging-Header.h */,
-				991CACB4209ECD18009283E0 /* Storyboard.storyboard */,
-				991CACB5209ECD18009283E0 /* StringExtension.swift */,
-				991CACBA209ECD19009283E0 /* UIViewExtension.swift */,
+				9935E57A209ED53E00967F20 /* Constants.swift */,
+				9935E57B209ED53E00967F20 /* ModularComponent-ModularComponent-Bridging-Header.h */,
+				9935E57C209ED53E00967F20 /* Localizable.strings */,
+				9935E57E209ED53E00967F20 /* UIViewExtension.swift */,
+				9935E57F209ED53E00967F20 /* LoginViewController.swift */,
+				9935E580209ED53E00967F20 /* StringExtension.swift */,
+				9935E581209ED53E00967F20 /* Storyboard.storyboard */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -228,6 +220,7 @@
 		EDC5A36091790D0AE4DF1F4BE74E5634 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
+				9935E579209ED53E00967F20 /* Classes */,
 				CA220CAB302720CA97D637BFE8BAC974 /* LICENSE */,
 				7B4F944ED9344D1152ED8D4E9E2A154C /* ModularComponent.podspec */,
 				144AAA8B391AE61CD219C685D5ADAAD7 /* README.md */,
@@ -238,7 +231,6 @@
 		F04C66DEA36EFC7404118D8A60CFB182 /* ModularComponent */ = {
 			isa = PBXGroup;
 			children = (
-				991CACC4209ED0AD009283E0 /* Classes */,
 				EDC5A36091790D0AE4DF1F4BE74E5634 /* Pod */,
 				4E76C6E8F1403B1EDDF0C76493D3CB36 /* Support Files */,
 			);
@@ -329,11 +321,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
-				TargetAttributes = {
-					C140F948434BE8BB3DB89B0617E4AC0A = {
-						LastSwiftMigration = 0930;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -359,8 +346,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				991CACBD209ECD19009283E0 /* Storyboard.storyboard in Resources */,
-				991CACBF209ECD19009283E0 /* Localizable.strings in Resources */,
+				9935E583209ED53E00967F20 /* Localizable.strings in Resources */,
+				9935E587209ED53E00967F20 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,10 +366,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				991CACC2209ECD19009283E0 /* LoginViewController.swift in Sources */,
-				991CACC0209ECD19009283E0 /* UIViewExtension.swift in Sources */,
-				991CACBE209ECD19009283E0 /* StringExtension.swift in Sources */,
-				991CACC1209ECD19009283E0 /* Constants.swift in Sources */,
+				9935E586209ED53E00967F20 /* StringExtension.swift in Sources */,
+				9935E585209ED53E00967F20 /* LoginViewController.swift in Sources */,
+				9935E584209ED53E00967F20 /* UIViewExtension.swift in Sources */,
+				9935E582209ED53E00967F20 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,10 +399,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		991CACB7209ECD18009283E0 /* Localizable.strings */ = {
+		9935E57C209ED53E00967F20 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				991CACB8209ECD18009283E0 /* en */,
+				9935E57D209ED53E00967F20 /* en */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -647,17 +634,13 @@
 		D0F32B9B361AC6285170A398D7E12060 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ModularComponent";
 				INFOPLIST_FILE = "Target Support Files/ModularComponent/ResourceBundle-ModularComponent-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = ModularComponent;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "../../ModularComponent-ModularComponent-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
@@ -700,18 +683,13 @@
 		E7E532C9BDAF2921F70BB809601B5C80 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ModularComponent";
 				INFOPLIST_FILE = "Target Support Files/ModularComponent/ResourceBundle-ModularComponent-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = ModularComponent;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "../../ModularComponent-ModularComponent-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
 			};
