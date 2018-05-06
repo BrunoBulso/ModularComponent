@@ -1,6 +1,6 @@
 {
   "name": "ModularComponent",
-  "version": "0.1.0",
+  "version": "1.0.3",
   "summary": "A short description of ModularComponent.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/brunobulso/ModularComponent",
@@ -13,15 +13,18 @@
   },
   "source": {
     "git": "https://github.com/brunobulso/ModularComponent.git",
-    "tag": "0.1.0"
+    "tag": "1.0.3"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "Pod/Classes/**/*.{swift}",
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "4.1"
+  },
+  "source_files": "ModularComponent/Classes/**/*.{swift}",
   "resource_bundles": {
     "ModularComponent": [
-      "Pod/Classes/**/*.{storyboard,xib,png,jpg,strings}"
+      "ModularComponent/Classes/**/*.{storyboard,xib,png,jpg,strings}"
     ]
   }
 }

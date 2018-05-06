@@ -1,16 +1,21 @@
 PODS:
-  - ModularComponent (0.1.0)
+  - ModularComponent (1.0.3)
 
 DEPENDENCIES:
-  - ModularComponent (from `../`)
+  - ModularComponent (from `https://github.com/brunobulso/ModularComponent.git`)
 
 EXTERNAL SOURCES:
   ModularComponent:
-    :path: "../"
+    :git: https://github.com/brunobulso/ModularComponent.git
+
+CHECKOUT OPTIONS:
+  ModularComponent:
+    :commit: 1d6a188a61197fa649bdde4f0953901fcf2b4b89
+    :git: https://github.com/brunobulso/ModularComponent.git
 
 SPEC CHECKSUMS:
-  ModularComponent: 8b015184b012f9623fc3c910384442215b26bbf9
+  ModularComponent: 87b3b0a636131a6ca302b76892eab5f40df518ad
 
-PODFILE CHECKSUM: b54eed14f52cfd68af637e2f9f619b9ff4031a65
+PODFILE CHECKSUM: 489e5ab953af77129024570e358ea531d96c9cf3
 
 COCOAPODS: 1.5.0
