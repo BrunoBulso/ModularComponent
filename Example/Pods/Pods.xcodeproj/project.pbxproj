@@ -217,21 +217,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		EDC5A36091790D0AE4DF1F4BE74E5634 /* Pod */ = {
+		EDC5A36091790D0AE4DF1F4BE74E5634 /* ModularComponent */ = {
 			isa = PBXGroup;
 			children = (
 				9935E579209ED53E00967F20 /* Classes */,
-				CA220CAB302720CA97D637BFE8BAC974 /* LICENSE */,
 				7B4F944ED9344D1152ED8D4E9E2A154C /* ModularComponent.podspec */,
 				144AAA8B391AE61CD219C685D5ADAAD7 /* README.md */,
+				CA220CAB302720CA97D637BFE8BAC974 /* LICENSE */,
 			);
-			name = Pod;
+			name = ModularComponent;
 			sourceTree = "<group>";
 		};
 		F04C66DEA36EFC7404118D8A60CFB182 /* ModularComponent */ = {
 			isa = PBXGroup;
 			children = (
-				EDC5A36091790D0AE4DF1F4BE74E5634 /* Pod */,
+				EDC5A36091790D0AE4DF1F4BE74E5634 /* ModularComponent */,
 				4E76C6E8F1403B1EDDF0C76493D3CB36 /* Support Files */,
 			);
 			name = ModularComponent;
@@ -637,11 +637,12 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ModularComponent";
 				INFOPLIST_FILE = "Target Support Files/ModularComponent/ResourceBundle-ModularComponent-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				PRODUCT_NAME = ModularComponent;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
@@ -686,11 +687,12 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ModularComponent";
 				INFOPLIST_FILE = "Target Support Files/ModularComponent/ResourceBundle-ModularComponent-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				PRODUCT_NAME = ModularComponent;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;

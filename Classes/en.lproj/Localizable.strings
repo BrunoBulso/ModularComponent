@@ -1,0 +1,11 @@
+//
+//  Localizable
+//  ModularComponent
+//
+//  Created by Bruno Bulso on 06/05/2018.
+//
+
+"emailPlaceholder" = "Email placeholder";
+"passwordPlaceholder" = "Password placeholder";
+"loginButtonTitle" = "loginButtonTitle";
+"fieldsError" = "You should fill your email and password!";

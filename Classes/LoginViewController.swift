@@ -23,21 +23,21 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var errorLabel: UILabel!
     @IBOutlet weak var emailTextField: UITextField! {
         didSet {
-            emailTextField.placeholder = "emailPlaceholder".localized(bundle: Constants.bundle(for: self))
+            emailTextField.placeholder = "emailPlaceholder".localized
             emailTextField.delegate = self
         }
     }
     @IBOutlet weak var passwordTextField: UITextField! {
         didSet {
-            passwordTextField.placeholder = "passwordPlaceholder".localized(bundle: Constants.bundle(for: self))
+            passwordTextField.placeholder = "passwordPlaceholder".localized
             passwordTextField.delegate = self
         }
     }
     @IBOutlet weak var loginButton: UIButton! {
         didSet {
-            loginButton.setTitle("loginButtonTitle".localized(bundle: Constants.bundle(for: self)), for: .normal)
+            loginButton.setTitle("loginButtonTitle".localized, for: .normal)
             loginButton.roundedSideBorder()
-            loginButton.backgroundColor = .blueTint
+            loginButton.backgroundColor = .blue
             loginButton.setTitleColor(.white, for: .normal)
         }
     }
@@ -70,7 +70,7 @@ class LoginViewController: UIViewController {
     
     @IBAction func loginButtonTouched(_ sender: UIButton) {
         guard let email = emailTextField.text, let password = passwordTextField.text, !email.isEmpty, !password.isEmpty else {
-            let errorMessage = "fieldsError".localized(bundle: Constants.bundle(for: self))
+            let errorMessage = "fieldsError".localized
             showError(error: errorMessage)
             delegate?.didFail(errorMessage: errorMessage)
             return 
@@ -83,7 +83,7 @@ class LoginViewController: UIViewController {
     }
     
     static func createLoginViewController() -> UIViewController? {
-        let storyboard = UIStoryboard(name: "Storyboard", bundle: Constants.bundle(for: self))
+        let storyboard = UIStoryboard(name: "Storyboard", bundle: Constants.bundle())
         return storyboard.instantiateInitialViewController()
     }
 }

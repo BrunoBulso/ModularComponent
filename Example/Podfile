@@ -1,0 +1,10 @@
+source 'https://github.com/brunobulso/ModularComponent.git'
+use_frameworks!
+
+target 'ModularComponent_Example' do
+  pod 'ModularComponent', :git => 'https://github.com/brunobulso/ModularComponent.git'
+
+  target 'ModularComponent_Tests' do
+    inherit! :search_paths
+  end
+end
